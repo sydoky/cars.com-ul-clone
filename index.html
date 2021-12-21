@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <button class="btn px-3" style="background-color:#532380; font-weight: 600; position: fixed; top: 50%; right: 0; transform: rotate(-90deg);">
+      Feedback
+    </button>
+    <header>
+      <div class="container d-flex justify-content-between py-2">
+        <div>
+          <img class="d-inline:block" src="https://www.cars.com/images/logo_cars-46214ae902ff93ba8fa2e40fb73dfa02.png?vsn=d" alt="">
+          <ul>
+            <li class="active">
+              <a href="#">Cars for Sale</a>
+            </li>
+            <li>
+              <a href="#">Research & Reviews</a>
+            </li>
+            <li>
+              <a href="">News&Videos</a>
+            </li>
+            <li>
+              <a href="#">Sell Your Car</a>
+            </li>
+            <li>
+              <a href="#">Service & Repair</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <ul>
+            <li class="px-0">
+              <a href="#">Sing In</a>
+            </li>
+            <li>/</li>
+            <li class="px-0">
+              <a href="#">Sing Up</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div>
+      <main>
+        <div class="container">
+          <div
+            style="
+              height: 330px;
+              background-color: aqua;
+              background-image: url(https://platform.cstatic-images.com/ad-creative/2af07304-5083-49a7-bb03-e0d56b575691/20211129_6214_MacanCarsHeroImageUpdate_2400x753.jpg);
+              background-position: center;
+              background-size: cover;
+              background-repeat: no-repeat;
+            "
+          >
+            <h1
+              class="d-inline-block text-white p-3 m-3"
+              style="background-color: rgba(0, 0, 0, 0.5)"
+            >
+              Find your <br />
+              match
+            </h1>
+          </div>
+          <div style="background-color: #eee" class="p-3">
+            <nav class="d-flex justify-content-between align-items-center">
+              <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <a
+                  class="nav-link active"
+                  id="nav-home-tab"
+                  data-bs-toggle="tab"
+                  href="#nav-home"
+                  role="tab"
+                  aria-controls="nav-home"
+                  aria-selected="true"
+                  >Home</a
+                >
+                <a
+                  class="nav-link"
+                  id="nav-profile-tab"
+                  data-bs-toggle="tab"
+                  href="#nav-profile"
+                  role="tab"
+                  aria-controls="nav-profile"
+                  aria-selected="false"
+                  >Body's style</a
+                >
+              </div>
+              <a href="#">Advanced search</a>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+              <div
+                class="tab-pane show active"
+                id="nav-home"
+                role="tabpanel"
+                aria-labelledby="nav-home-tab"
+              >
+                <div class="container-fluid" style="border-radius: 12px">
+                  <div class="row bg-white" style="border-radius: 12px">
+                    <div class="col-md-4 border p-0">
+                      <div style="position: relative;">
+                        <span style="position: absolute; left: 1rem; color:#888; font-size: 14px;">New/used</span>
+                        <select class="form-select p-3 pt-4 pb-2"  aria-label="Default select example">
+                          <option selected>New & used cars</option>
+                          <option value="1">New & certified cars</option>
+                          <option value="2">New cars</option>
+                          <option value="3">Used cars</option>
+                          <option value="3">Certified cars</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-md-4 border p-0">
+                      <div style="position: relative;">
+                        <span style="position: absolute; left: 1rem; color:#888; font-size: 14px;">Make</span>
+                        <select class="form-select p-3 pt-4 pb-2"  aria-label="Default select example">
+                          <option selected>All Makes</option>
+                          <option value="1">Acura</option>
+                          <option value="2">Audi</option>
+                          <option value="3">BMW</option>
+                          <option value="2">Buick</option>
+                          <option value="3">Cadillac</option>
+                          <option value="2">Chevrolet</option>
+                          <option value="3">Chrysler</option>
+                          <option value="3">Dodge</option>
+                          <option value="3">Ford</option>
+                          <option value="3">GMC</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-md-4 border p-0">
+                      <div style="position: relative;">
+                        <span style="position: absolute; left: 1rem; color:#888; font-size: 14px;">Model</span>
+                        <select class="form-select p-3 pt-4 pb-2"  aria-label="Default select example">
+                          <option selected>All models</option>
+                          <option value="1">One</option>
+                          <option value="2">Two</option>
+                          <option value="3">Three</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-md-4 border p-0">
+                      <div style="position: relative;">
+                        <span style="position: absolute; left: 1rem; color:#888; font-size: 14px;">Price</span>
+                        <select class="form-select p-3 pt-4 pb-2"  aria-label="Default select example">
+                          <option selected>No max price</option>
+                          <option value="1">One</option>
+                          <option value="2">Two</option>
+                          <option value="3">Three</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-md-2 border p-0">
+                      <div style="position: relative;">
+                        <span style="position: absolute; left: 1rem; color:#888; font-size: 14px;">Distance</span>
+                        <select class="form-select p-3 pt-4 pb-2"  aria-label="Default select example">
+                          <option selected>20 miles</option>
+                          <option value="1">One</option>
+                          <option value="2">Two</option>
+                          <option value="3">Three</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-md-2 border p-0">
+                      <div style="position: relative;">
+                        <span style="position: absolute; left: 1rem; color:#888; font-size: 14px;">ZIP</span>
+                        <input type="text" class="form-control p-3 pt-4 pb-2" name="" value="33119">
+                      </div>
+                    </div>
+                    <div class="col-md-4 border p-0">
+                      <div class="d-grid">
+                        <button class="btn p-3" style="background-color: #532380; font-weight: 700;">Search</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane"
+                id="nav-profile"
+                role="tabpanel"
+                aria-labelledby="nav-profile-tab"
+              >
+              <div class="container-fluid" style="border-radius: 12px">
+                <div class="row bg-white" style="border-radius: 12px">
+                  <div class="col-md-4 border p-0">
+                    <div style="position: relative;">
+                      <span style="position: absolute; left: 1rem; color:#888; font-size: 14px;">New/used</span>
+                      <select class="form-select p-3 pt-4 pb-2"  aria-label="Default select example">
+                        <option selected>New & used cars</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-md-4 border p-0">
+                    <div style="position: relative;">
+                      <span style="position: absolute; left: 1rem; color:#888; font-size: 14px;">Body style</span>
+                      <select class="form-select p-3 pt-4 pb-2"  aria-label="Default select example">
+                        <option selected>All body styles</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-md-4 border p-0">
+                    <div style="position: relative;">
+                      <span style="position: absolute; left: 1rem; color:#888; font-size: 14px;">Price</span>
+                      <select class="form-select p-3 pt-4 pb-2"  aria-label="Default select example">
+                        <option selected>No max price</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-md-4 border p-0">
+                    <div style="position: relative;">
+                      <span style="position: absolute; left: 1rem; color:#888; font-size: 14px;">Distance</span>
+                      <select class="form-select p-3 pt-4 pb-2"  aria-label="Default select example">
+                        <option selected>20 miles</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-md-4 border p-0">
+                    <div style="position: relative;">
+                      <span style="position: absolute; left: 1rem; color:#888; font-size: 14px;">ZIP</span>
+                      <input type="text" class="form-control p-3 pt-4 pb-2" name="" value="33119">
+                    </div>
+                  </div>
+                  <div class="col-md-4 border p-0">
+                    <div class="d-grid">
+                      <button class="btn p-3" style="background-color: #532380; font-weight: 700;">Search</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
